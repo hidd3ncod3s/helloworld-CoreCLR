@@ -9,7 +9,7 @@ index d371777..49e881e 100644
          [MethodImplAttribute(MethodImplOptions.NoInlining)]
          public static void WriteLine(String value)
          {
-+                       value= "Injected: " + value;
++            value= "Injected: " + value;
              Out.WriteLine(value);
          }
 
